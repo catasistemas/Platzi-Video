@@ -55,9 +55,6 @@ body {
   width: 40px;
   display: flex;
 }
-.header__menu--profile img {
-  /* margin-right: 10px; */
-}
 .header__menu--profile p {
   margin-top: 18px;
   margin-left: 1px;
