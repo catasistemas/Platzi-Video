@@ -7,13 +7,17 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   background-color: #3c6e71;
+  font-family: 'Mulish', sans-serif;
 }
 .header {
   width: 100vw;
   background-color: #3c6e71;
   height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header__logo {
   width: 200px;
@@ -23,7 +27,7 @@ body {
   margin: 10px 0 0 10px;
 }
 .header__menu {
-  margin-right: 30px;
+  margin-right: 80px;
 }
 .header__menu ul {
   display: none;
@@ -31,9 +35,35 @@ body {
   position: absolute;
   width: 100px;
   text-align: right;
-  margin: 0 0 0 -14px;
+  margin: 0 0 0 -5px;
+}
+.header__menu:hover ul, ul:hover {
+  display: block;
+}
+.header__menu li {
+  margin: 10px 0;
+}
+.header__menu li a {
+  color: white;
+  text-decoration: none;
+}
+.header__menu li a:hover {
+  color: #284b63;
 }
 .header__menu--profile {
   margin-right: 8px;
   width: 40px;
+  display: flex;
+}
+.header__menu--profile img {
+  /* margin-right: 10px; */
+}
+.header__menu--profile p {
+  margin-top: 18px;
+  margin-left: 1px;
+  color: white;
+  cursor: pointer;
+}
+.header__menu--profile p:hover {
+  color: #284b63;
 }
