@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.2rem;
+  background-color: #3c6e71;
+}
+.header {
+  width: 100vw;
+  background-color: #3c6e71;
+  height: 80px;
+}
+.header__logo {
+  width: 200px;
+}
+.header__logo__img {
+  width: 100%;
+  margin: 10px 0 0 10px;
+}
+.header__menu {
+  margin-right: 30px;
+}
+.header__menu ul {
+  display: none;
+  list-style: none;
+  position: absolute;
+  width: 100px;
+  text-align: right;
+  margin: 0 0 0 -14px;
+}
+.header__menu--profile {
+  margin-right: 8px;
+  width: 40px;
+}
